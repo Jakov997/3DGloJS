@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Function one has been called"),console.log("Function two has been called")})();
