@@ -1,0 +1,25 @@
+
+> 3d-glo-webpack@1.0.0 dev
+> webpack --watch --mode=development
+
+assets by status 443 KiB [1m[32m[cached][39m[22m 4 assets
+assets by path [1m[32mimages/[39m[22m 2.35 MiB 66 assets
+assets by chunk 182 KiB (name: main)
+  asset [1m[32mcss/style.css[39m[22m 176 KiB [1m[33m[compared for emit][39m[22m (name: main)
+  asset [1m[32mjs/main.js[39m[22m 6.09 KiB [1m[33m[compared for emit][39m[22m (name: main)
+asset [1m[32mindex.html[39m[22m 18.1 KiB [1m[33m[compared for emit][39m[22m
+Entrypoint [1mmain[39m[22m 182 KiB (443 KiB) = [1m[32mcss/style.css[39m[22m 176 KiB [1m[32mjs/main.js[39m[22m 6.09 KiB 4 auxiliary assets
+orphan modules 184 KiB (javascript) 443 KiB (asset) 1 KiB (runtime) [1m[33m[orphan][39m[22m 25 modules
+runtime modules 1.5 KiB 8 modules
+cacheable modules 432 bytes (javascript) 176 KiB (css/mini-extract)
+  javascript modules 432 bytes
+    modules by path [1m./modules/*.js[39m[22m 169 bytes
+      [1m./modules/one.js[39m[22m 85 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m./modules/two.js[39m[22m 84 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./index.js[39m[22m 163 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m../node_modules/bootstrap/dist/css/bootstrap.min.css[39m[22m 50 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m./scss/style.scss[39m[22m 50 bytes [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  css modules 176 KiB
+    css ../node_modules/css-loader/dist/cjs.js![1m../node_modules/bootstrap/dist/css/bootstrap.min.css[39m[22m 159 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs/index.js![1m./scss/style.scss[39m[22m 17 KiB [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+webpack 5.111.1 compiled [1m[32msuccessfully[39m[22m in 1248 ms
