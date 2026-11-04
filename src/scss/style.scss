@@ -77,6 +77,12 @@ body {
     justify-content: center;
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+    transition: all 0.3s ease;
+
+    &.active {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
   }
 
   .active-menu {
@@ -112,7 +118,7 @@ body {
     position: fixed;
     top: 30px;
     left: 30px;
-    font-size: 3rem;
+    font-size: 5rem;
     -webkit-transition: 0.2s;
     transition: 0.2s;
     -webkit-transform-origin: 50% 53%;
@@ -460,8 +466,13 @@ main {
     border-radius: 50%;
     border: solid $color-white;
     display: inline-block;
-    -webkit-transition: background-color, -webkit-transform 0.4s;
-    transition: background-color, transform 0.4s, -webkit-transform 0.4s;
+    -webkit-transition:
+      background-color,
+      -webkit-transform 0.4s;
+    transition:
+      background-color,
+      transform 0.4s,
+      -webkit-transform 0.4s;
   }
 
   .dot-active {

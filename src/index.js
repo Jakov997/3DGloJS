@@ -1,7 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './scss/style.scss';
-import two from './modules/two';
 import timer from './modules/timer';
+import menu from './modules/menu';
+import modal from './modules/modal';
 
-timer('2026-10-30T12:05');
-two();
+timer('2026-11-30T12:05');
+menu();
+modal();

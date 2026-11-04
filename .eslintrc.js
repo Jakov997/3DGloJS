@@ -14,6 +14,7 @@ module.exports = {
   rules: {
     // SCSS импортируется в JS через Webpack, а не разрешается как JS-модуль.
     'import/no-unresolved': ['error', { ignore: ['\\.scss$'] }],
+     quotes: ['error', 'single', { avoidEscape: true }], // Одинарные ковычки
     'linebreak-style': 'off', // Отключение проверки стиля переноса строк
     'no-console': 'off', // Отключение проверки использования console.log
   },
