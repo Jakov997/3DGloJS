@@ -42,8 +42,6 @@ const modal = () => {
     modalWindow.style.opacity = '';
     content.style.transform = '';
   });
-
-  console.log(popupBtns);
 };
 
 export default modal;

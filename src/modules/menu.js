@@ -23,7 +23,4 @@ export default function menu() {
   menuItems.forEach((menuItem) => {
     menuItem.addEventListener('click', handleMenu);
   });
-
-  console.log(menuItems);
-  console.dir(closeBtn);
 }
